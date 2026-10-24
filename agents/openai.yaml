@@ -1,0 +1,6 @@
+interface:
+  display_name: "麦麦盯单"
+  short_description: "查询麦当劳已有订单进度，区分自取外送并给出下一步建议，取消前确认"
+  default_prompt: "使用 $mcd-order-watch，看看我最近一单到哪了。"
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,2 @@
+# Required only for the live MCP bridge; the demo uses the standard library.
+mcp==1.30.0

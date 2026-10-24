@@ -1,0 +1,15 @@
+{
+  "demo": true,
+  "schema_note": "本项目归一化假数据，不是官方MCP返回结构；时间固定，不读取本机钟。",
+  "server_time": "2026-10-24T12:22:00+08:00",
+  "scenarios": {
+    "delivery": [{"id":"DEMO-1001","created_at":"2026-10-24T12:00:00+08:00","mode":"delivery","status":"delivering","eta":"2026-10-24T12:35:00+08:00","items":["模拟巨无霸套餐"]}],
+    "pickup": [{"id":"DEMO-2001","created_at":"2026-10-24T12:05:00+08:00","mode":"pickup","status":"ready","eta":"2026-10-24T12:20:00+08:00","items":["模拟麦辣鸡腿堡套餐"]}],
+    "overdue": [{"id":"DEMO-3001","created_at":"2026-10-24T11:40:00+08:00","mode":"delivery","status":"preparing","eta":"2026-10-24T12:10:00+08:00","items":["模拟双层吉士汉堡"]}],
+    "unknown": [{"id":"DEMO-4001","created_at":"2026-10-24T12:00:00+08:00","mode":"pickup","status":"unmapped","eta":"08:00","items":["模拟早餐"]}],
+    "multiple": [
+      {"id":"DEMO-5001","created_at":"2026-10-24T12:05:00+08:00","mode":"pickup","status":"preparing","eta":"2026-10-24T12:30:00+08:00","items":["模拟薯条"]},
+      {"id":"DEMO-5002","created_at":"2026-10-24T11:55:00+08:00","mode":"delivery","status":"delivering","eta":"2026-10-24T12:35:00+08:00","items":["模拟汉堡"]}
+    ]
+  }
+}

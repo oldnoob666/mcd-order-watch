@@ -1,0 +1,5 @@
+# Preserve official declaration bytes on Windows checkouts.
+CONTEST_DECLARATION.md -text
+*.py text eol=lf
+*.json text eol=lf
+*.yaml text eol=lf
